@@ -1,8 +1,10 @@
 #Les variables n'ont pas besoin d'être typé 
-message = "Hello"
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+message = "Hello"                       
+print(message)                        # Prints Hello
+message = 1+2+3+4                     # Prints 10
 print(message)
-message = 1+2+3+4
-print(message)
+#----------------------------------------------------------------------------------------------------------------------------------------------------
 if message ==10:
                 print('ok')           # 4 indentations pour remplacer les {}
                 message+=message+1
@@ -15,20 +17,26 @@ number = 2**3                         # ** = puissance de
 print(number)
 helloworld = "hello" + " " + "world"  # Concaténation String basique
 print(helloworld) 
-helloworld = "hello" * 10             # String + * = hellohellohello... X10 
-print(helloworld)
+#----------------------------------------------------------------------------------------------------------------------------------------------------
 tableau = []
-tableau2 = [1,2,3]                          # Tableau
+tableau2 = [1,2,3]                    # Tableau
 tableau.append(helloworld)            # Tableau append
 tableau.append(13)
 tableau.append(1153)
 print(tableau[0]) # prints hellohellohello....
 print(tableau[1]) # prints 13
-tableaufusion = tableau + tableau2       # Fusion de tableaux
+tableaufusion = tableau + tableau2    # Fusion de tableaux
 print(tableaufusion)
 
 for element in tableau:               # print tous les éléments du tableau, element = variable au choix
     print(element)
-for element in tableau2:               # print tous les éléments du tableau2, element = variable au choix
+for element in tableau2:              # print tous les éléments du tableau2, element = variable au choix
     print(element)
+
+helloworld = "hello" * 10             # String + * = hellohellohello... X10 
+print(helloworld)
+
+print(tableau * 3)                                     
+
+
 
