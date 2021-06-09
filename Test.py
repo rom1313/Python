@@ -24,9 +24,11 @@ tableau.append(13)
 tableau.append(1153)
 print(tableau[0]) # prints hellohellohello....
 print(tableau[1]) # prints 13
-
+tableaufusion = tableau + tableau2       # Fusion de tableaux
+print(tableaufusion)
 
 for element in tableau:               # print tous les éléments du tableau, element = variable au choix
     print(element)
 for element in tableau2:               # print tous les éléments du tableau2, element = variable au choix
     print(element)
+
