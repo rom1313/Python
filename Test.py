@@ -45,3 +45,21 @@ if tableau.count(13)==2:
                 print("Le tableau contient deux fois le nombre 13")
 elif tableau.count(13)==1:
                 print("Le tableau contient une fois 13")
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+nom ='Tom'
+age = 23
+print("%s a %s ans." % (nom, age))    # %s = variable temporaire, (nom,age) remplace les variable temporaire
+# Prints Tom a 23 ans
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+print("Mon tableau: %s" % tableau)
+
+# %s - String (or any object with a string representation, like numbers)
+
+# %d - Integers
+
+# %f - Floating point numbers
+
+# %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+
+# %x/%X - Integers in hex representation (lowercase/uppercase)
+#------------------------------------------------------------------------------------------------------------------------------------------------------
