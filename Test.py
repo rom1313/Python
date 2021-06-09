@@ -39,8 +39,9 @@ helloworld = "hello" * 10             # String + * = hellohellohello... X10
 print(helloworld)                     # Prints hellohellohello... X 10
 
 print(tableau * 3)                    # Print le contenu du tableau 3 fois dans un seul tableau                            
-
-
-
-
-
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+                                      # Compter une valeur ou un objet dans un tableau
+if tableau.count(13)==2:
+                print("Le tableau contient deux fois le nombre 13")
+elif tableau.count(13)==1:
+                print("Le tableau contient une fois 13")
