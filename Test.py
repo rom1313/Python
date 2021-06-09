@@ -8,6 +8,12 @@ if message ==10:
                 message+=message+1
 elif message ==9:                     #elif = else if                    
                 print('nope')
-
-
-print(message)
+print(message)              
+number = 1 + 2 * 3 / 4.0              # multiplication et division ensuite addition et soustraction sauf si () = priorité  
+print(number)
+number = 2**3                         # ** = puissance de
+print(number)
+helloworld = "hello" + " " + "world"  # Concaténation String basique
+print(helloworld) 
+helloworld = "hello" * 10             # String + * = hellohellohello... X10 
+print(helloworld)
