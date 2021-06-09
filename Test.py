@@ -10,6 +10,7 @@ if message ==10:
                 message+=message+1
 elif message ==9:                     #elif = else if                    
                 print('nope')
+#----------------------------------------------------------------------------------------------------------------------------------------------------                
 print(message)              
 number = 1 + 2 * 3 / 4.0              # multiplication et division ensuite addition et soustraction sauf si () = priorité  
 print(number)
@@ -17,6 +18,7 @@ number = 2**3                         # ** = puissance de
 print(number)
 helloworld = "hello" + " " + "world"  # Concaténation String basique
 print(helloworld) 
+
 #----------------------------------------------------------------------------------------------------------------------------------------------------
 tableau = []
 tableau2 = [1,2,3]                    # Tableau
@@ -32,11 +34,13 @@ for element in tableau:               # print tous les éléments du tableau, el
     print(element)
 for element in tableau2:              # print tous les éléments du tableau2, element = variable au choix
     print(element)
-
+#----------------------------------------------------------------------------------------------------------------------------------------------------
 helloworld = "hello" * 10             # String + * = hellohellohello... X10 
-print(helloworld)
+print(helloworld)                     # Prints hellohellohello... X 10
 
-print(tableau * 3)                                     
+print(tableau * 3)                    # Print le contenu du tableau 3 fois dans un seul tableau                            
+
+
 
 
 
